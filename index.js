@@ -6,6 +6,9 @@ const upload = require('./middlewares/upload');
 const contactRouter = require('./routes/contactRouter');
 const productRouter = require('./routes/productRouter');
 const orderRouter = require('./routes/orderRoutes');
+const fs = require('fs');
+
+
 require('dotenv').config();
 
 const app = express();
